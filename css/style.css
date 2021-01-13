@@ -1,0 +1,200 @@
+/* основной  цвет текста #757575 */
+/* вторичній цвет текста #212121 */
+/* цвет акцента #2196F3 */
+
+
+/* основной цвет фона #E5E5E5 */
+/* вторичній цвет фона #F5F4FA  */
+/* цвет header #FFFFFF */
+/* цвет footer ,hero #2F303A */
+
+:root {
+    /* CSS переменніе к тексту */
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --hero-text-color: #ffffff;
+    /* CSS переменніе к фону */
+    --primary-color: #ffffff;
+    --secondary-color: #F5F4FA;
+    --hero-footer-color: #2f303a;   
+    --button-accent-color:#2196f3;
+    /* переменніе к шрифту */
+    --primary-font: Roboto;
+    --logo-font: Raleway;
+}
+body {
+    background-color: var(--primary-color);
+
+    font-family: var(--primary-font), Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+
+    color: var(--primary-text-color);
+}
+                /* Отмена стилей списка */
+/* ul {
+    list-style: none;
+} */
+.ul-nostyle {
+    list-style: none;
+}
+                /* Отмена стилей ссілок */
+.link-nostyle {
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.link-nostyle:hover,
+.link-nostyle:focus {
+    color: var(--accent-text-color);
+}
+.cards-nostyle {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+                /* Оформление цвета ссілки активной страниці */
+.activ-page {
+    color: var(--accent-text-color)
+}
+                /* Оформление логотипа */
+.logo {
+    font-family: var(--logo-font), Sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: var(--accent-text-color);
+}
+.header-color {
+    color: var(--title-text-color);
+}
+.footer-color {
+    color: var(--hero-text-color);
+}
+                /* Оформление header and footer */
+.header-type {
+    background-color: var(--primary-color);
+}
+.link-text {
+    color: var(--title-text-color);
+}
+.contact-text {
+    color:var(--primary-text-color)
+}
+.footer-type,
+.hero-type  {
+    background-color: var(--hero-footer-color);
+}
+.footer-text {
+    color: var(--hero-text-color);
+}
+address { font-style: normal; }
+/* Оформление заголовков */
+.title-text {
+    color: var(--title-text-color);
+}
+
+/* Оформление Портфолио */
+
+.cards-title {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+
+}
+.cards-text {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+   /*Оформление сраниці Студия  */
+   
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--hero-text-color);
+
+}
+.skils-type, 
+.task-type {
+    background-color: var(--primary-color);
+}
+.skils-title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    text-transform: uppercase;
+}
+
+
+.task-title,
+.person-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.person-type {
+    background-color: var(--secondary-color);
+}
+.name-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+}
+.person-work {
+    font-size: 16px;
+    line-height: 19px;
+}
+/* button CSS */
+.button {
+    font-family: inherit;
+    color: #000000;
+    background-color: #ffffff;
+}
+.button.primary {
+   
+    background-color: var(--button-accent-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+
+    color: var(--hero-text-color);
+}
+.button.secondary {
+   background-color: var(--secondary-color);
+
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+
+   text-align: center;
+
+   color: var(--title-text-color);
+}
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    background-color: var(--button-accent-color);
+    color: var(--hero-text-color);
+}
