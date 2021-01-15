@@ -15,119 +15,127 @@
 <body>
     <!--Шапка сайта с навигацией и контактной информацией-->
     <header class="header-type">
-        <nav>
-            <ul class="ul-nostyle">
-                <li><a class="link-nostyle logo" href="./index.html">Web<span class="header-color">Studio</span></a></li>
-                <li><a class="link-nostyle link-text" href="./index.html">Студия</a></li>
-                <li><a class="link-nostyle activ-page" href="#">Портфолио</a></li>
-                <li><a class="link-nostyle link-text" href="#">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="ul-nostyle">
-            <li> <a class="link-nostyle contact-text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link-nostyle contact-text" href="tel:380961111111">+380961111111</a></li>
-        </ul>
-    </header>
+        <div class="container header-nav">
+            <nav>         
+              <ul class="ul-nostyle site-nav">
+                  <li class="item"><a class="link-nostyle logo" href="./index.html">Web<span class="header-color">Studio</span></a> </li>
+                  <li class="item"><a class="link-nostyle link-text" href="./index.html">Студия</a></li>
+                  <li class="item"><a class="link-nostyle activ-page" href="#">Портфолио</a></li>
+                  <li class="item"><a class="link-nostyle link-text" href="#">Контакты</a></li>
+              </ul>
+            </nav>
+         <ul class="ul-nostyle contact-nav">
+            <li class="item"><a class="link-nostyle contact-text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="item"><a class="link-nostyle contact-text" href="tel:380961111111">+380961111111</a></li>
+         </ul>      
+        </div>
+  
+      </header>
     <main>
         <!--Портфолио-->
         
-      <section>
-        <h1 hidden>Наше портфолио</h1>
-       <ul class="ul-nostyle">
-           <li><button type="button" class="button secondary">Все</button></li>
-           <li><button type="button" class="button secondary">Веб-сайты</button></li>
-           <li><button type="button" class="button secondary">Приложения</button></li>
-           <li><button type="button" class="button secondary">Дизайн</button></li>
-           <li><button type="button" class="button secondary">Маркетинг</button></li>
-       </ul>
+      <section class="portfolio-cards">
+          <div class="container">
+               <h1 class="visually-hidden">Наше портфолио</h1>
+               <ul class="ul-nostyle  filter-buttons">
+                   <li class="filter-element"><button type="button" class="button secondary">Все</button></li>
+                   <li class="filter-element"><button type="button" class="button secondary">Веб-сайты</button></li>
+                   <li class="filter-element"><button type="button" class="button secondary">Приложения</button></li>
+                   <li class="filter-element"><button type="button" class="button secondary">Дизайн</button></li>
+                   <li class="filter-element"><button type="button" class="button secondary">Маркетинг</button></li>
+               </ul>
+        
 
-       <ul class="ul-nostyle">
-           <li>
-                <a href="#" class="cards-nostyle">
-                   <img src="./images/portfolio/img01.jpg" alt="открытый ноутбук" width="370" height="294">               
-                   <h2 class="title-text cards-title">Технокряк</h2>
-                   <p class="cards-text">Веб-сайт</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img02.jpg" alt="баскетболисты" width="370" height="294">                
-                    <h2 class="title-text cards-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="cards-text">Дизайн</p>
-                 </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img03.jpg" alt="картинка с рыбой" width="370" height="294">                
-                   <h2 class="title-text cards-title">Ресторан Seafood</h2>
-                   <p class="cards-text">Приложение</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img04.jpg" alt="наушники" width="370" height="294">                
-                    <h2 class="title-text cards-title">Проект Prime</h2>
-                    <p class="cards-text">Маркетинг</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img05.jpg" alt="коробочки" width="370" height="294">                
-                    <h2 class="title-text cards-title">Проект Boxes</h2>
-                    <p class="cards-text">Приложение</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img06.jpg" alt="монитор" width="370" height="294">                
-                    <h2 class="title-text cards-title">Inspiration has no Borders</h2>
-                    <p class="cards-text">Веб-сайт</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img07.jpg" alt="книга" width="370" height="294">                
-                    <h2 class="title-text cards-title">Издание Limited Edition</h2>
-                    <p class="cards-text">Дизайн</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img08.jpg" alt="бирка" width="370" height="294">                
-                    <h2 class="title-text cards-title">Проект LAB</h2>
-                    <p class="cards-text">Маркетинг</p>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="cards-nostyle">
-                    <img src="./images/portfolio/img09.jpg" alt="клавиатура ноутбука" width="370" height="294">                
-                    <h2 class="title-text cards-title">Growing Business</h2>
-                    <p class="cards-text">Приложение</p>
-                </a>
-            </li>                
-                  
-       </ul>
+               <ul class="ul-nostyle cards-container">
+                   <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                           <img src="./images/portfolio/img01.jpg" alt="открытый ноутбук" width="370" height="294">               
+                           <h2 class="title-text cards-title">Технокряк</h2>
+                           <p class="cards-text">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img02.jpg" alt="баскетболисты" width="370" height="294">                
+                            <h2 class="title-text cards-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="cards-text">Дизайн</p>
+                         </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img03.jpg" alt="картинка с рыбой" width="370" height="294">                
+                           <h2 class="title-text cards-title">Ресторан Seafood</h2>
+                           <p class="cards-text">Приложение</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img04.jpg" alt="наушники" width="370" height="294">                
+                            <h2 class="title-text cards-title">Проект Prime</h2>
+                            <p class="cards-text">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img05.jpg" alt="коробочки" width="370" height="294">                
+                            <h2 class="title-text cards-title">Проект Boxes</h2>
+                            <p class="cards-text">Приложение</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img06.jpg" alt="монитор" width="370" height="294">                
+                            <h2 class="title-text cards-title">Inspiration has no Borders</h2>
+                            <p class="cards-text">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img07.jpg" alt="книга" width="370" height="294">                
+                            <h2 class="title-text cards-title">Издание Limited Edition</h2>
+                            <p class="cards-text">Дизайн</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img08.jpg" alt="бирка" width="370" height="294">                
+                            <h2 class="title-text cards-title">Проект LAB</h2>
+                            <p class="cards-text">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li class="cards-element" >
+                        <a href="#" class="cards-nostyle">
+                            <img src="./images/portfolio/img09.jpg" alt="клавиатура ноутбука" width="370" height="294">                
+                            <h2 class="title-text cards-title">Growing Business</h2>
+                            <p class="cards-text">Приложение</p>
+                        </a>
+                    </li>                
+                          
+               </ul>
+            </div>
       </section>
     </main>
     <!--Подвал-->
-    <footer class="footer-type">
-        <a class="link-nostyle logo" href="./index.html">Web<span class="footer-color">Studio</span></a>
-            
-        <ul class="ul-nostyle">
-            <li>
-                <address>
-                  <a class="link-nostyle footer-text" href="#">г. Киев, пр-т Леси Украинки, 26</a>
-                </address>   
-            </li>
-            <li>
-                <a class="link-nostyle contact-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="link-nostyle contact-text" href="tel:380961111111">+380961111111</a>
-            </li>
-        </ul>
-
-    </footer>
+    <footer class="footer-type type">       
+        <div class="container">
+           <a class="link-footer logo" href="./index.html">Web<span class="footer-color">Studio</span></a>          
+              
+           <ul class="ul-nostyle footer-list">
+             <li class="footer-element">
+               <address>
+                 <a class="link-footer footer-text" href="#">г. Киев, пр-т Леси Украинки, 26</a>
+               </address>        
+             </li>
+             <li class="footer-element">
+               <a class="link-footer contact-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
+             </li>
+             <li class="footer-element">
+               <a class="link-footer contact-text" href="tel:380961111111">+380961111111</a>
+             </li>
+           </ul>
+      </div>
+       
+      </footer>   
     
 </body>
 </html>
