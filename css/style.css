@@ -71,12 +71,11 @@ body {
 }
                 /* Оформление логотипа */
 .logo {
-    font-family: var(--logo-font), Sans-serif;
 
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-
+    font-family: var(--logo-font), Sans-serif;
     color: var(--accent-text-color);
 }
 .header-color {
