@@ -68,7 +68,7 @@ body {
 }
                 /* Оформление логотипа */
 .logo {
-
+    margin-right: 93px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -269,25 +269,28 @@ img {
     margin: -1px;
 
 }
-.site-nav {
+.nav {
 display: flex;
 align-items: center;
 }
-.site-nav li {
+.site-nav .item {
+    display: inline-block;
     margin-right: 50px;
 }
-.site-nav .item:first-child {
- margin-right: 93px;
-}
+
 .site-nav .item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 .contact-nav {
     display: flex;
 }
-.contact-nav .item+.item {
-    margin-left: 50px;
+.contact-nav .item {
+    margin-right: 50px;
 }
+.contact-nav .item:last-child {
+    margin-right: 0px;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
