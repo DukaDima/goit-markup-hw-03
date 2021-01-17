@@ -45,13 +45,10 @@ body {
     font-size: 14px;
     line-height: 1.14;
 }
+.link-nostyle:hover,
+.link-nostyle:focus,
 .link-footer:hover,
 .link-footer:focus {
-    color: var(--accent-text-color);
-}
-
-.link-nostyle:hover,
-.link-nostyle:focus {
     color: var(--accent-text-color);
 }
 
@@ -148,10 +145,7 @@ img {
 }
 .button.primary {
 
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   padding: 10px 32px;
    
    
     background-color: var(--button-accent-color);
@@ -163,6 +157,7 @@ img {
     color: var(--hero-text-color);
 }
 .button.secondary {
+    padding: 6px 22px;
    background-color: var(--secondary-color);
 
    font-weight: 500;
@@ -205,11 +200,15 @@ img {
 .task-type {
     background-color: var(--primary-color);
 }
-.task-type {
+.skils-type {
+    padding-top: 94px;
     padding-bottom: 94px;
 }
+.task-type {
+    padding-bottom: 94px;
+
+}
 .skils-title {
-    margin-top: 94px;
 
     font-weight: 700;
     font-size: 14px;
@@ -225,7 +224,6 @@ img {
     text-align: center;
 }
 .task-title {
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 .person-title {
