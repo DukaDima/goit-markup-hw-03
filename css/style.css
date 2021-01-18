@@ -209,7 +209,7 @@ img {
 
 }
 .skils-title {
-
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -297,7 +297,6 @@ align-items: center;
     justify-content: space-between;
 }
 .skils-text {
-    margin-top: 10px;
     letter-spacing: 0.03em;
 }
 .skils-container,
